@@ -9,11 +9,11 @@
     }
 
    @keyframes respirar {
-  0%   { background-color: #FFFFFF; }
-  25%  { background-color: #F0F0F0; }
-  50%  { background-color: #E0E0E0; }
-  75%  { background-color: #F0F0F0; }
-  100% { background-color: #FFFFFF; }
+0%   { background-color: #FFFFFF; }
+25%  { background-color: #EEF8FF; }
+50%  { background-color: #DDF2FF; }
+75%  { background-color: #EEF8FF; }
+100% { background-color: #FFFFFF; }
 }.slider {
   width: 85%;      
   margin: 0 auto;    
