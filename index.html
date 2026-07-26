@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta name="description" content="Sitio oficial de Capo Cuántico, Producción Musical y Audiovisual.">
+  <meta name="description" content="Sitio oficial de Capo Cuántico, Producción Musical Independiente.">
   <link rel="icon" type="image/png" href="favicon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Capo Cuántico - Producción Musical</title>
-  <meta name="description" content="Sitio oficial de Capo Cuántico, Producción Musical y Audiovisual. Música, novedades y contacto.">
-<meta name="keywords" content="ixi, ixi barreiro, ixi b, capo cuantico, producción musical, villa regina, ixi, barreiro, artista, vinilo en blanco, musica, vinilo, blanco, banda, música, rock, pop, canciones, oficial, argentina, indierock">
-<meta name="author" content="IXI">
+  <meta name="keywords" content="ixi, ixi barreiro, ixi b, capo cuantico, producción musical, villa regina, ixi, barreiro, artista, vinilo en blanco, musica, vinilo, blanco, banda, música, rock, pop, canciones, oficial, argentina, indierock">
+  <meta name="author" content="IXI">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,22 +21,22 @@ fetch('main-box.html')
   .then(data => document.getElementById('main-box').innerHTML = data);
 </script>
 
-<h2 style="margin-top:10%">INFO</h2>
-<p>Capo Cuántico es el espacio de producción musical de <a href="https://ixi.com.ar" class="l" style="color: rgb(253, 13, 13);">IXI</a>.</p>
-<p>Un proyecto dedicado a acompañar artistas y desarrollar su arte desde la creatividad, la experimentación y el trabajo colaborativo..</p> 
+<h2 style="margin-top:10%">¿Tenés un Proyecto?</h2>
+<p>Capo Cuántico es el espacio de producción musical de <a href="https://ixi.com.ar" class="l" style="color: rgb(253, 13, 13);">IXI</a>. 
+  Un proyecto dedicado a acompañar artistas y desarrollar sus proyectos desde la creatividad, la experimentación y el trabajo colaborativo.</p> 
 
 <p>Cada proyecto es diferente.
 
-El objetivo es encontrar la identidad de cada obra, respetando su esencia y acompañando el proceso creativo desde la primera idea hasta el resultado final, sin fórmulas.</p>
+El objetivo es encontrar la identidad de cada obra, respetando su esencia y acompañando el proceso creativo desde la primera idea hasta el resultado final.</p>
 
 <p><a href="mailto:ixi.ruido@gmail.com"><img src="correologo.png" alt="Contacto" width="10%" style="filter: invert(21%);"></a></p>
 
  
-<div id="discografia"></div> 
+<div id="proyectos"></div> 
 <script>
-fetch('discografia.html')
+fetch('proyectos.html')
   .then(res => res.text())
-  .then(data => document.getElementById('discografia').innerHTML = data);
+  .then(data => document.getElementById('proyectos').innerHTML = data);
 </script>
 
 <div id="contenedor-redes"></div> 
