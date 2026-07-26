@@ -27,3 +27,63 @@
       cursor: pointer;         /* NO aparece la manito */
       pointer-events: auto;    /* mantiene el click activo */
     }
+
+
+/* Botones de tabla de proyectos */    
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    td {
+      border: none;
+      padding: 0px;
+      vertical-align: top;
+    }
+
+    .plataforma {
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    .plataforma .nombre {
+      font-weight: bold;
+      font-size: 0.9rem;
+      margin-bottom: 1px;
+    }
+
+    .plataforma .link-crudo span {
+      font-size: 0.75rem;
+      word-break: break-word;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .plataforma .botones button {
+      padding: 5px 5px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: #222;
+      color: white;
+      font-size: 0.5rem;
+      transition: background-color 0.3s;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+
+    .plataforma .botones button:hover {
+      background-color: #555;
+    }
+
+    @media (max-width: 480px) {
+      .plataforma .botones button {
+        width: 100%; /* botones verticales en móvil */
+      }
+    }    
