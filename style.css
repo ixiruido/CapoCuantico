@@ -72,7 +72,7 @@
       border-radius: 5px;
       background-color: #222;
       color: white;
-      font-size: 0.5rem;
+      font-size: 1rem;
       transition: background-color 0.3s;
       margin-right: 5px;
       margin-bottom: 5px;
@@ -81,9 +81,4 @@
     .plataforma .botones button:hover {
       background-color: #555;
     }
-
-    @media (max-width: 480px) {
-      .plataforma .botones button {
-        width: 100%; /* botones verticales en móvil */
-      }
-    }    
+  
